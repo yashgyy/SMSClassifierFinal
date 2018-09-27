@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/foodActivity"
+            android:title="Food" />
+        <item
+            android:id="@+id/telecomActivity"
+            android:title="Telecom" />
+        <item
+            android:id="@+id/cabActivity"
+            android:title="Cab" />
+        <item
+            android:id="@+id/financeActivity"
+            android:title="Finance" />
+        <item
+            android:id="@+id/fashionActivity"
+            android:title="Fashion" />
+        <item
+            android:id="@+id/healthActivity"
+            android:title="Health" />
+        <item
+            android:id="@+id/otherActivity"
+            android:title="Other" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/shareLocation"
+            android:title="Share Ur Location"/>
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/aboutUs"
+                android:title="About Us" />
+            <item
+                android:id="@+id/contactUs"
+                android:title="Contact" />
+        </menu>
+    </item>
+
+</menu>
